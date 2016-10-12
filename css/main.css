@@ -27,16 +27,28 @@ header {
   text-align: center;
 }
 
+h1 {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+}
+
 a {
   color: #0074d9;
   text-decoration: none;
 }
 
 a:hover {
-  background-color:  #0074d9;
+  background-color: #0074d9;
   color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
 
 }
